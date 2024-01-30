@@ -1,0 +1,24 @@
+<div class="entete">
+    <form class="bank-form" (ngSubmit)="connecterUtilisateur()">
+        <h2>Connexion</h2>
+         
+        <div class="iner">
+            <label for="email">Courriel :</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="iner">
+          <label for="mot de passe">Mot de passe :</label>
+          <input type="password"  name="mot de passe" required>
+        </div>
+
+        <div class="center-button">
+          <button type="submit">Connecter</button>
+        </div>
+
+        <div class="last"> 
+          <p>Vous n'avez pas compte?<a [routerLink]="['/sign']">Créer</a></p>
+        </div>   
+      </form>
+</div>
+

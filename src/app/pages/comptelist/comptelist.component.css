@@ -1,0 +1,16 @@
+
+.card{
+  margin-top: 200px;
+  margin-left: 100px;
+  height: 50%;
+}
+.allcard{
+  width: 70vw;
+}
+.text{
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 50px;
+  letter-spacing: 15px;
+  text-decoration-line: overline underline;
+}

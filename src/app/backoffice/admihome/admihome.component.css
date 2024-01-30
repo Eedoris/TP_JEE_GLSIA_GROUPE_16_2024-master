@@ -1,0 +1,10 @@
+.homecontent{
+  display: flex;
+  height: 100vh;
+  overflow-y:hidden;
+}
+.animation{
+  height: 240px;
+  width: 240px;
+}
+

@@ -1,0 +1,41 @@
+<nav class="navbar navbar-expand-lg" style="background-color: rgba(0, 0, 0, 0.5);">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" >
+        <img src="/assets/images/logo.png" alt="" class="img-fluid" width="50" height="100"/>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+
+
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><i class="bi bi-person"></i>
+              Compte
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" [routerLink]="['/comptelist']" routerLinkActive="active-link"[routerLinkActiveOptions]="{exact:true}" >Mes comptes</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/creecpte']" routerLinkActive="active-link">Créer un compte </a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Transaction
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" [routerLink]="['/transvers']" routerLinkActive="active-link">Versement</a></li>
+              <li><a class="dropdown-item" [routerLink]="['/transretrait']" routerLinkActive="active-link">Retrait </a></li>
+              <li><a class="dropdown-item" [routerLink]="['/transvirement']" routerLinkActive="active-link">Virement</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" [routerLink]="['']"><i class="bi bi-box-arrow-right"></i> Deconnexion</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
