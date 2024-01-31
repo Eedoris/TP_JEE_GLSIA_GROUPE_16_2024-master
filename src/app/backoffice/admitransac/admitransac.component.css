@@ -1,0 +1,12 @@
+.transac
+{
+  display: flex;
+}
+.contain{
+  margin-top: 240px;
+  margin-left: 100px;
+}
+.first{
+    height: 50%;
+    width: 70vw;
+}
